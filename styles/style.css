@@ -150,6 +150,16 @@ body {
     font-size: 1.38rem;
 }
 
+.habilidades__lista {
+    font-family: var(--fuente-montserrat);
+    font-size: 1.3rem;
+    color: var(--color-terciario);
+    margin: 15px 0 40px 0;
+    padding-left: 20px;
+    list-style-type: disc;
+    line-height: 1.8;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1200px) {
     .header {
