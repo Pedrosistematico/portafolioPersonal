@@ -15,12 +15,22 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     background: var(--color-primario);
     color: var(--color-secundario);
     font-family: var(--fuente-montserrat);
 }
-
+main {
+    flex: 1;
+}
 /* ===== HEADER ===== */
 .header {
     padding: 2% 0% 1.8% 15%;
